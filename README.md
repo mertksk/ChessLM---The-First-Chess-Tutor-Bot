@@ -57,7 +57,7 @@ This is a Python-based chess application built using Pygame, featuring a graphic
 *   `chess_gui.py`: Handles the Pygame graphical user interface, drawing the board, pieces, and chat, and processing user input.
 *   `chess_logic.py`: Contains the core chess game rules, piece definitions, move validation, and game state management.
 *   `stockfish_analysis.py`: Provides functions to interact with the Stockfish engine for move evaluation and principal variation analysis.
-*   `gemini_chat.py`: Manages the integration with the Hugging Face language model for the AI chat assistant.
+*   `model_chat.py`: Manages the integration with the Hugging Face language model for the AI chat assistant.
 *   `requirements.txt`: Lists the necessary Python libraries.
 *   `.env`: (Optional) Can be used to store environment variables like the Hugging Face token.
 *   `assets/pieces/`: Contains the SVG image files for the chess pieces.
