@@ -1,0 +1,18 @@
+# Core dependencies for chess game
+pygame>=2.5.0
+python-chess>=1.999
+
+# Gemma model dependencies
+transformers>=4.50.0
+torch>=2.0.0
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# Optional but recommended for better performance
+bitsandbytes>=0.41.0  # For 8-bit quantization support
+safetensors>=0.3.1    # For faster model loading
+
+# Remove these as they're no longer needed:
+# google-generativeai
+# python-dotenv
